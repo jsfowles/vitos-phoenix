@@ -19,8 +19,6 @@ defmodule VitosPhoenix.Router do
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", VitosPhoenix do
-  #   pipe_through :api
-  # end
+  resources "/posts", PostController
+  
 end
