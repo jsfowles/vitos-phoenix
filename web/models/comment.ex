@@ -1,6 +1,7 @@
 defmodule VitosPhoenix.Comment do
   use VitosPhoenix.Web, :model
 
+
   schema "comments" do
     field :name, :string
     field :content, :string
