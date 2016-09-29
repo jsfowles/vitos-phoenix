@@ -1,4 +1,4 @@
-# VitosPhoenix
+# Testing for a food app.
 
 To start your Phoenix app:
 
